@@ -6,6 +6,7 @@
   }
 ***/
 #target illustrator-19
+#targetengine "main"
 #script "Material_Icon_Glyphs"
 function Material_Icon_Glyphs(props){
 
