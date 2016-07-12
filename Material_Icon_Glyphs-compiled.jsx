@@ -1,11 +1,12 @@
 /***
   {
     "name" : "Material_Icon_Glyphs",
-    "scriptVersion" : "1.0.2.2",
+    "scriptVersion" : "1.0.2.3",
     "note" : "This is a script called Material_Icon_Glyphs"
   }
 ***/
 #target illustrator-20
+#targetengine main
 #script "Material_Icon_Glyphs"
 function Material_Icon_Glyphs(props){
 
