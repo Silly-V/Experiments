@@ -22,13 +22,13 @@ Once the Illustrator file is manipulated by the .jsx script, the result message 
 ## Usage
 **Check initial website status**
 
-Go to the website colorhunt.co](https://colorhunt.co) and ensure the extension is properly working: the color palette containers each should have an "Ai" button on the top-right corner.
+Go to the website [colorhunt.co](https://colorhunt.co) and ensure the extension is properly working: the color palette containers each should have an "Ai" button on the top-right corner.
 
 **Prepare Illustrator template**
 
 Create any Illustrator document with four global swatches whose names are exactly "place c1", "place c2", "place c3", and "place c4". Color some artwork with these swatches. Since the swatch color values are being manipulated by the extendscript, these global colors could be used to change appearance of stacked appearance fills or strokes, effects and graphic styles, and also blends.
 
-![Setting up Illustrator global swatches](_images/swatch making.gif)
+![Setting up Illustrator global swatches](_images/swatch%20making.gif)
 
 **Action**
 
