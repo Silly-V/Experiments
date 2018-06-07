@@ -36,5 +36,5 @@ When clicking the Ai icons on the website, the extension should change the docum
 
 ![Recoloring in action](_images/colorizing.gif)
 
-##Resources
+## Resources
 The documentation for Google Chrome extensions's native messaging api is (or was) located at [this location (developer.chrome.com/extensions/nativeMessaging)](https://developer.chrome.com/extensions/nativeMessaging).
