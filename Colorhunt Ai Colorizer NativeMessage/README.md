@@ -17,7 +17,7 @@ Once the Illustrator file is manipulated by the .jsx script, the result message 
 2. Make a link to, or place the file "**ColorhuntAiScript-2.jsx**" into your "Documents/Adobe Scripts" folder.
 3. Place the file "**RunAiScriptFromNativeMsg.py**" into your "Documents/Adobe Scripts" folder, too.
 4. Edit the file "**com.vbas.colorhunt_colorizer.json**" to change the line `"path": "/Users/VasilyHall/Documents/Adobe Scripts/RunAiScriptFromNativeMsg.py",` to point to your own .py file in the location from step #3.
-5. Place the file "**com.vbas.colorhunt_colorizer.json**" into the folder "/Library/Google/Chrome/NativeMessagingHosts". If this folder is not in your system, create it. ![Location of the com.vbas.colorhun-colorizer.json file](_images/chrome host json location.png)
+5. Place the file "**com.vbas.colorhunt_colorizer.json**" into the folder "/Library/Google/Chrome/NativeMessagingHosts". If this folder is not in your system, create it. ![Location of the com.vbas.colorhun-colorizer.json file](_images/chrome%20host%20json%20location.png)
 
 ## Usage
 **Check initial website status**
