@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+
+  "name": "Colorhunt Ai Colorizer NativeMessage",
+  "description": "This extension sends a JSON data object containing rgb color information from swatch groups at the website 'colohunt.co'; via Chrome's native messaging to an Adobe script which can use that JSON color data.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "activeTab", "nativeMessaging", "tabs"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://colorhunt.co/*"],
+      "js": ["jquery1.11.1.min.js", "ColorhuntAiScript.js"]
+    }
+  ]
+}

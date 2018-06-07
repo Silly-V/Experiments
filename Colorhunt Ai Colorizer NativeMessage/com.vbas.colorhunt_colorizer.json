@@ -1,0 +1,9 @@
+{
+  "name": "com.vbas.colorhunt_colorizer",
+  "description": "This extension sends a JSON data object containing rgb color information from swatch groups at the website 'colohunt.co'; via Chrome's native messaging to an Adobe script which can use that JSON color data.",
+  "path": "/Users/VasilyHall/Documents/Adobe Scripts/RunAiScriptFromNativeMsg.py",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://ncbegkphenbnheodnmpipbpncacndakf/"
+  ]
+}
